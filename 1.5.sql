@@ -1,0 +1,2 @@
+-- 1-5. Eng arzon, eng qimmat va o'rtacha ijara narxi (rental_rate).
+SELECT (max(rental_rate)-min(rental_rate)) as difference, max(rental_rate) as max_rental_rate ,min(rental_rate) as min_rental_rate  FROM film 

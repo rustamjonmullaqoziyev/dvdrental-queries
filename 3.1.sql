@@ -1,3 +1,4 @@
+-- 3.1. Number of films and average rental price by category.
 -- 3-1. Kategoriya bo'yicha filmlar soni va o'rtacha ijara narxi.
 
 SELECT category.category_id, category.name, count(title) as film_count, AVG(rental_rate) FROM category

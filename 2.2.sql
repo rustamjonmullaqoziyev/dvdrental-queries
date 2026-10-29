@@ -1,3 +1,4 @@
+-- 2.2. All actors of each film in a single row (string_agg).
 -- 2-2. Har film uchun barcha aktyorlar bitta qatorda (string_agg).
 SELECT f.title as name, 
 STRING_AGG(first_name ||' '|| last_name, ', ' ORDER BY a.last_name) as actors, description FROM film f 

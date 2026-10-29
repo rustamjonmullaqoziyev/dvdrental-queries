@@ -1,3 +1,4 @@
+-- 3.8. Customers with more than 30 rentals (HAVING).
 -- 3-8. 30 dan ortiq ijara qilgan mijozlar (HAVING)
 SELECT
     c.customer_id,

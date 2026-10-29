@@ -1,3 +1,4 @@
+-- 2.9. Actors who have appeared in films of the "Action" category (without duplicates).
 -- 2-9. "Action" kategoriyasidagi filmlarda o'ynagan aktyorlar (takrorlanmasdan).
 SELECT DISTINCT ON (first_name, last_name) (first_name ||' '|| last_name) as actor_name, category.name  FROM category 
 INNER JOIN film_category USING (category_id)

@@ -1,3 +1,4 @@
+-- 2.5. Films that have never been rented (LEFT JOIN + IS NULL).
 -- 2-5. Hech qachon ijaraga olinmagan filmlar (LEFT JOIN + IS NULL).
 SELECT title, rental_rate  FROM film 
 LEFT JOIN inventory USING(film_id)

@@ -1,3 +1,4 @@
+-- 2.10. For each payment: customer, film title, payment amount, payment date (payment -> rental -> inventory -> film).
 -- 2-10. Har to'lov uchun: mijoz, film nomi, to'lov summasi, to'lov sanasi
 --       (payment -> rental -> inventory -> film).
 

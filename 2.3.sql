@@ -1,3 +1,4 @@
+-- 2.3. Customers: first name, last name, email, city, country.
 -- 2-3. Mijozlar: ism, familiya, email, shahar, davlat.
 
 SELECT first_name, last_name, email, city, country FROM customer

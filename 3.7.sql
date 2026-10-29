@@ -1,3 +1,4 @@
+-- 3.7. How many rentals each staff member processed and how many payments they received.
 -- 3-7. Har xodim qancha ijara rasmiylashtirgan va qancha to'lov qabul qilgan.
 SELECT
     s.staff_id, (s.first_name ||' '|| s.last_name) as fullname,

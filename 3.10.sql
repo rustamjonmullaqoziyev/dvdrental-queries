@@ -1,3 +1,4 @@
+-- 3.10. Late returns: rentals whose actual duration exceeds rental_duration, and by how many days.
 -- 3-10. Kechikib qaytarilgan ijaralar: haqiqiy ijara muddati rental_duration
 --       dan oshganlar va necha kun kechikkani.
 SELECT

@@ -1,3 +1,4 @@
+-- 3.2. The 10 most rented films.
 -- 3-2. Eng ko'p ijaraga olingan 10 ta film.
 SELECT title, count(rental.rental_id) as rental_count FROM film 
 LEFT JOIN inventory USING (film_id)
